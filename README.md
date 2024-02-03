@@ -4,7 +4,8 @@
 - Then enter the `Calculate CGPA` button and boom
 - Your CGPA will be shown in screen
 
-**Please try this system and let me know if it is giving correct CGPA or not!**
+## Please try this system and let me know if it is giving correct CGPA or not!
+- **Go to the [link](https://calculate-your-bugs.netlify.app/) to try this out**
 
 # Contribution
 MD. DELWAR JAHAN  
