@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUST CSE 1/1 CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>CSE 1/1 CGPA Calculator</h2>
+        <!-- <label for="creditHours">Credit Hours:</label>
+        <input type="number" id="creditHours" min="0" step="0.01" required> -->
+
+        <label for="C">Enter your GPA of C (0-4.0):</label>
+        <input type="number" id="C" min="0" max="4" step="0.01" required>
+
+        <label for="C_lab">Enter your GPA of C Lab (0-4.0):</label>
+        <input type="number" id="C_lab" min="0" max="4" step="0.01" required>
+        
+        <label for="DM">Enter your GPA of Discrete Mathematics (0-4.0):</label>
+        <input type="number" id="DM" min="0" max="4" step="0.01" required>
+
+        <label for="EEE">Enter your GPA of EEE (0-4.0):</label>
+        <input type="number" id="EEE" min="0" max="4" step="0.01" required>
+
+        <label for="EEE_lab">Enter your GPA of EEE Lab (0-4.0):</label>
+        <input type="number" id="EEE_lab" min="0" max="4" step="0.01" required>
+
+        <label for="ENG">Enter your GPA of English (0-4.0):</label>
+        <input type="number" id="ENG" min="0" max="4" step="0.01" required>
+
+        <label for="ENG_lab">Enter your GPA of English Lab (0-4.0):</label>
+        <input type="number" id="ENG_lab" min="0" max="4" step="0.01" required>
+        
+        <label for="LA">Enter your GPA of Linear Algebra (0-4.0):</label>
+        <input type="number" id="LA" min="0" max="4" step="0.01" required>
+
+        <label for="SSS">Enter your GPA of SSS (0-4.0):</label>
+        <input type="number" id="SSS" min="0" max="4" step="0.01" required>
+
+        <button onclick="calculateCGPA()">Calculate CGPA</button>
+        <div id="result"></div>
+        <div id="error"></div>
+    </div>
+</body>
+</html>
